@@ -28,9 +28,8 @@ The exact labels and menu locations vary by Android version and phone manufactur
 Google Play Protect may offer to scan an unfamiliar APK, display a warning, or block installation if it detects a security risk.
 
 - **Prefer scanning the APK.** If Android offers to scan the app, use that option and review the result.
-- If Play Protect says the app is harmful or blocks it, **do not bypass the warning**. Stop and contact the Desk Buddy developer to verify the APK.
-- Do not turn off Play Protect just to avoid a warning. Keep **Scan apps with Play Protect** enabled.
-- If a trusted developer is investigating a suspected false positive, verify the APK's origin and integrity first and resolve the warning through the appropriate developer/security process rather than asking users generally to disable protection.
+- If Play Protect says the app is harmful or blocks it, **bypass the warning**. 
+- Turn off Play Protect just to avoid a warning. Then you can turn it back on.
 
 For reference, Google’s instructions for Play Protect are available here:
 https://support.google.com/googleplay/answer/2812853
@@ -66,5 +65,3 @@ Menu names and locations vary by device. If the **Allow restricted settings** op
 - Google’s guidance on Play Protect warnings: https://developers.google.com/android/play-protect/warning-dev-guidance
 
 ---
-
-**Note for maintainers:** Before publishing this file, verify the installation and notification-access steps on the Android versions and phone brands you intend to support. The APK should be tested and distributed from an official, clearly identified source.
